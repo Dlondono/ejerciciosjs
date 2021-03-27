@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="./js/funciones.js"></script> 
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Pangrama</title>
+</head>
+<body>
+<div>
+	<ul>
+	  <li><a href="./pangrama.html">Pangrama</a></li>
+	  <li><a href="./bisiesto.html">Año bisiesto</a></li>
+	  <li><a href="./unicos.html">Elementos unicos</a></li>
+	  <li><a href="./romanos.html">Numeros romanos</a></li>
+	</ul>
+</div>
+<br></br>
+<div align="center">
+	<form action="/submit">
+		<textarea placeholder="Ingrese el texto paraa verificar si es un pangrama" id="texto" rows="4" cols="80"></textarea>
+	  	<br>
+	  		<p id="resultado"> </p>
+	  	<br>
+	  	<input type="submit" value="Verificar" onclick="pangrama()">
+	</form>
+</div>
+
+</body>
+</html>
